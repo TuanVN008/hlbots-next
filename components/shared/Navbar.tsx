@@ -30,7 +30,16 @@ export default function Navbar({ dict, locale }: { dict: Dict; locale: Locale })
               >
                 Join Discord
               </a>
+              <a
+                href="https://adbautomation.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white"
+              >
+                Code Tool Course
+              </a>
             </nav>
+            
           </div>
 
           {/* Language + Theme toggle */}
