@@ -1,0 +1,230 @@
+{
+"nav": {"home": "Início", "downloads": "Downloads", "shop": "Loja", "refund": "Política de Reembolso", "contact": "Contato"},
+"footer": {"rights": "Todos os direitos reservados."},
+"cta": {"getStarted": "Começar", "buyNow": "Comprar"},
+"home": {
+"hero": {"title": "Rápido · Seguro · Eficiente", "subtitle": "Bots de automação e guias para jogos de estratégia."},
+"products": {
+"title": "Produtos",
+"subtitle": "Escolha seu jogo e automatize com inteligência.",
+"rok": "Coleta de gemas e rotinas com precisão.",
+"cod": "Automatize loops principais e recursos.",
+"eoc": "Preparando rotinas avançadas para EoC.",
+"warpath": "Warpath em desenvolvimento."
+},
+"matrix": {
+"title": "Compare os planos",
+"subtitle": "Escolha a escala certa para sua máquina.",
+"rows": [
+{"feature": "Limite de janelas", "planA": "Até 12", "planB": "Ilimitado*"},
+{"feature": "Atualizações", "planA": "Inclusas", "planB": "Inclusas"},
+{"feature": "Kit de segurança", "planA": "Boas práticas", "planB": "Boas práticas"},
+{"feature": "Suporte", "planA": "Comunidade", "planB": "Comunidade"}
+]
+},
+"faq": {
+"title": "FAQ",
+"qa": [
+{"q": "É seguro usar?", "a": "Fornecemos orientações para reduzir riscos, porém automação pode violar ToS do jogo."},
+{"q": "Qual emulador devo usar?", "a": "Recomendamos LDPlayer em 1280×720, dpi 240 para estabilidade."},
+{"q": "Há reembolso?", "a": "Produtos digitais geralmente não têm reembolso – veja a política."}
+]
+}
+},
+"downloads": {
+"title": "Downloads & Guias",
+"rok": {"en": "RoK – Download (English)", "setup": "RoK – Guia de instalação", "windowsExclusion": "RoK – Exceções no Windows Security", "update": "RoK – Como atualizar"},
+"cod": {"en": "CoD – Download (English)", "setup": "CoD – Guia de instalação"}
+},
+"shop": {
+"title": "Loja",
+"subtitle": "Preços transparentes – entrega imediata de chaves.",
+"features": {
+"multi12": "Execute até 12 janelas do emulador",
+"unlimited": "Janelas ilimitadas do emulador",
+"safe": "Recomendações de segurança",
+"updates": "Atualizações frequentes",
+"support": "Suporte via comunidade Discord"
+}
+},
+"policy": {
+"refund": {
+"title": "Política de Reembolso e Devoluções",
+"body1": "Por serem licenças digitais, pedidos normalmente não são elegíveis a reembolso após a entrega.",
+"point1": "Para problemas técnicos, contate o suporte primeiro.",
+"point2": "Banimentos ou violações de ToS não são reembolsáveis.",
+"point3": "Chargebacks sem contato prévio podem resultar em revogação da licença.",
+"body2": "Exceções limitadas podem ser consideradas a nosso critério quando a chave não foi utilizada."
+}
+},
+"contact": {
+"title": "Contato & Comunidade",
+"subtitle": "Entre em nossos canais para novidades e suporte.",
+"channels": [
+{"label": "Discord", "href": "https://discord.com/invite/hlbots", "desc": "Ajuda e atualizações"},
+{"label": "Zalo", "href": "https://zalo.me/", "desc": "Comunidade no Vietnã"},
+{"label": "YouTube", "href": "https://youtube.com/", "desc": "Guias e demos"},
+{"label": "Facebook", "href": "https://facebook.com/", "desc": "Notícias e promoções"}
+]
+},
+"welcome": {
+    "title": "Selecione o serviço que deseja usar",
+    "options": [
+      {
+        "key": "mobile",
+        "title": "Coletar Gem no Mobile",
+        "subtitle": "O plano Mobile inclui tudo para rodar o bot no Android, iOS, PC ou Mac. O bot vem pré-instalado e continua rodando mesmo offline.",
+        "image": "/welcome/mobile.jpg",
+        "href": "/{locale}/shop"
+      },
+      {
+        "key": "pc",
+        "title": "Coletar Gem no PC",
+        "subtitle": "Use o emulador LDPlayer.",
+        "image": "/welcome/ldplayer.jpg",
+        "href": "/{locale}/downloads"
+      },
+      {
+        "key": "gameclient",
+        "title": "Coletar Gem no PC (Game Client) – Grátis",
+        "subtitle": "Use a versão de PC do jogo.",
+        "image": "/welcome/gameclient.jpg",
+        "href": "/{locale}/downloads"
+      }
+    ]
+  },
+  "rokHub": {
+  "title": "Rise of Kingdoms – Escolha a plataforma",
+  "subtitle": "Escolha o pacote certo: Mobile, PC (emulador) ou Cliente.",
+  "groups": {
+    "mobile": {
+      "title": "Mobile",
+      "desc": "Bot pré-instalado – funciona mesmo quando você está offline."
+    },
+    "pc": {
+      "title": "PC (Emulador)",
+      "desc": "Otimizado para LDPlayer, várias janelas."
+    },
+    "client": {
+      "title": "Game Client",
+      "desc": "Executa diretamente no cliente de jogo para PC."
+    }
+  }
+},
+
+  "shopRokTier": {
+    "mobile": {
+      "pageTitle": "Rise of Kingdoms – Plano Mobile",
+      "pageSubtitle": "Bot pré-instalado — continua rodando offline. Recomendado LDPlayer 1280×720, 240 dpi.",
+      "gridTitle": "Escolha um plano Mobile",
+      "gridSub": "Ideal quando você quer deixar a máquina rodando sozinha.",
+      "plans": [
+        {
+          "title": "Mobile – Starter",
+          "price": "R$ 39",
+          "features": [
+            "Coleta de Gem / rotinas básicas",
+            "1 licença / 1 dispositivo",
+            "Atualizações frequentes",
+            "Suporte da comunidade"
+          ]
+        },
+        {
+          "title": "Mobile – Pro",
+          "price": "R$ 59",
+          "features": [
+            "Tudo do Starter",
+            "Otimizações de segurança e agendamento",
+            "Suporte prioritário"
+          ]
+        }
+      ]
+    },
+    "pc": {
+      "pageTitle": "Rise of Kingdoms – Plano PC (Emulador)",
+      "pageSubtitle": "Otimizado para LDPlayer — várias janelas e operação flexível.",
+      "gridTitle": "Escolha um plano PC",
+      "gridSub": "Para PCs potentes com várias contas em paralelo.",
+      "plans": [
+        {
+            "title": "PC – 3 Janelas",
+            "price": "$16",
+            "features": [
+              "30 dias de validade",
+              "Sem recurso de troca de e-mail",
+              "Práticas recomendadas de segurança",
+              "Atualizações frequentes",
+              "Suporte da comunidade"
+            ]
+          },
+          {
+            "title": "PC – 6 Janelas",
+            "price": "$23",
+            "features": [
+              "30 dias de validade",
+              "Sem recurso de troca de e-mail",
+              "Práticas recomendadas de segurança",
+              "Atualizações frequentes",
+              "Suporte da comunidade"
+            ]
+          },
+          {
+            "title": "PC – 12 Janelas",
+            "price": "$31",
+            "features": [
+              "30 dias de validade",
+              "Todos os recursos",
+              "Práticas recomendadas de segurança",
+              "Atualizações frequentes",
+              "Suporte da comunidade"
+            ]
+          },
+          {
+            "title": "PC – 99 Janelas",
+            "price": "$40",
+            "features": [
+              "30 dias de validade",
+              "Todos os recursos",
+              "Práticas recomendadas de segurança",
+              "Atualizações frequentes",
+              "Suporte da comunidade"
+            ]
+          },
+          {
+            "title": "PC – Vitalício",
+            "price": "$89",
+            "features": [
+              "Uso ilimitado",
+              "3 janelas",
+              "Comprar mais 1 janela por US$40 adicionais",
+              "Todos os recursos",
+              "Práticas recomendadas de segurança",
+              "Atualizações frequentes",
+              "Suporte da comunidade"
+            ]
+          }
+
+      ]
+    },
+    "client": {
+      "pageTitle": "Rise of Kingdoms – Plano Game Client",
+      "pageSubtitle": "Executa direto no cliente de jogo para PC — configuração simples.",
+      "gridTitle": "Escolha um plano Client",
+      "gridSub": "Ótimo se você prefere o cliente nativo de PC.",
+      "plans": [
+        {
+          "title": "Client – Plus",
+          "price": "$16",
+          "features": [
+            "Otimizações de performance",
+            "Atualizações prioritárias",
+            "Suporte avançado"
+          ]
+        }
+      ]
+    }
+  }
+
+
+
+}

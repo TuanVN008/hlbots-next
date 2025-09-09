@@ -1,0 +1,278 @@
+{
+"nav": {"home": "Trang chủ", "downloads": "Tải", "shop": "Cửa hàng", "refund": "Chính sách hoàn tiền", "contact": "Liên hệ"},
+"footer": {"rights": "Đã đăng ký bản quyền."},
+"cta": {"getStarted": "Bắt đầu", "buyNow": "Mua ngay"},
+"home": {
+"hero": {"title": "Nhanh · An toàn · Hiệu quả", "subtitle": "Bot tự động và hướng dẫn cho các game chiến thuật phổ biến."},
+"products": {
+"title": "Sản phẩm",
+"subtitle": "Chọn game của bạn và tự động hoá thông minh.",
+"rok": "Thu thập gem, xử lý tác vụ lặp lại chuẩn xác.",
+"cod": "Tự động hoá vòng lặp cốt lõi và tài nguyên.",
+"eoc": "Đang chuẩn bị các routine nâng cao cho EoC.",
+"warpath": "Warpath – đang phát triển."
+},
+"matrix": {
+"title": "So sánh gói",
+"subtitle": "Chọn quy mô phù hợp máy của bạn.",
+"rows": [
+{"feature": "Giới hạn cửa sổ", "planA": "Tối đa 12", "planB": "Không giới hạn*"},
+{"feature": "Cập nhật", "planA": "Bao gồm", "planB": "Bao gồm"},
+{"feature": "Bộ công cụ an toàn", "planA": "Best‑practice", "planB": "Best‑practice"},
+{"feature": "Hỗ trợ", "planA": "Community", "planB": "Community"}
+]
+},
+"faq": {
+"title": "Câu hỏi thường gặp",
+"qa": [
+{"q": "Sử dụng có an toàn không?", "a": "Chúng tôi cung cấp khuyến nghị giảm rủi ro, nhưng automation có thể vi phạm ToS của game."},
+{"q": "Nên dùng giả lập nào?", "a": "Khuyến nghị LDPlayer ở 1280×720, dpi 240 để ổn định."},
+{"q": "Có hoàn tiền không?", "a": "Sản phẩm số thường không hoàn tiền – xem chính sách chi tiết."}
+]
+}
+},
+"downloads": {
+"title": "Tải xuống & Hướng dẫn",
+"rok": {"en": "RoK – Tải (English)", "setup": "RoK – Hướng dẫn cài đặt", "windowsExclusion": "RoK – Thêm vào ngoại lệ Windows Security", "update": "RoK – Cách cập nhật"},
+"cod": {"en": "CoD – Tải (English)", "setup": "CoD – Hướng dẫn cài đặt"}
+},
+"shop": {
+"title": "Cửa hàng",
+"subtitle": "Giá minh bạch – cấp key ngay sau thanh toán.",
+"features": {
+"multi12": "Chạy tối đa 12 cửa sổ giả lập",
+"unlimited": "Không giới hạn cửa sổ giả lập",
+"safe": "Khuyến nghị an toàn best‑practice",
+"updates": "Cập nhật thường xuyên",
+"support": "Cộng đồng Discord hỗ trợ"
+}
+},
+"policy": {
+"refund": {
+"title": "Chính sách Hoàn tiền & Trả hàng",
+"body1": "Vì sản phẩm là giấy phép số, đơn hàng thường không đủ điều kiện hoàn tiền/đổi trả sau khi cấp key.",
+"point1": "Nếu gặp lỗi kỹ thuật, vui lòng liên hệ hỗ trợ để xử lý trước.",
+"point2": "Lạm dụng, bị ban, hoặc vi phạm ToS không thuộc phạm vi hoàn tiền.",
+"point3": "Chargeback mà không liên hệ hỗ trợ có thể bị thu hồi key.",
+"body2": "Một số ngoại lệ có thể được xem xét khi key chưa được sử dụng."
+}
+},
+"contact": {
+"title": "Liên hệ & Cộng đồng",
+"subtitle": "Tham gia các kênh để nhận thông báo và hỗ trợ.",
+"channels": [
+{"label": "Discord", "href": "https://discord.com/invite/hlbots", "desc": "Hỗ trợ & cập nhật"},
+{"label": "Zalo", "href": "https://zalo.me/", "desc": "Cộng đồng Việt Nam"},
+{"label": "YouTube", "href": "https://youtube.com/", "desc": "Hướng dẫn & demo"},
+{"label": "Facebook", "href": "https://facebook.com/", "desc": "Tin tức & khuyến mãi"}
+]
+},
+"welcome": {
+    "title": "Chọn dịch vụ bạn muốn dùng",
+    "options": [
+      {
+        "key": "mobile",
+        "title": "Cloud Mobile",
+        "subtitle": "Gói Mobile có sẵn mọi thứ để chạy bot trên Android, iOS, PC hoặc Mac. Bot đã được cài sẵn và tiếp tục chạy ngay cả khi bạn offline.",
+        "image": "/welcome/mobile.jpg",
+        "href": "/{locale}/shop"
+      },
+      {
+        "key": "pc",
+        "title": "PC",
+        "subtitle": "Dùng giả lập LDPlayer trên PC.",
+        "image": "/welcome/ldplayer.jpg",
+        "href": "/{locale}/downloads"
+      },
+      {
+        "key": "gameclient",
+        "title": "PC",
+        "subtitle": "Dùng phiên bản game cài trên PC.",
+        "image": "/welcome/gameclient.jpg",
+        "href": "/{locale}/downloads"
+      }
+    ]
+  },
+  "rokHub": {
+  "title": "Rise of Kingdoms – Chọn nền tảng",
+  "subtitle": "Chọn nhóm gói phù hợp: Mobile, PC (emulator) hoặc Client.",
+  "groups": {
+    "mobile": {
+      "title": "Mobile",
+      "desc": "Bot cài sẵn – chạy cả khi bạn offline."
+    },
+    "pc": {
+      "title": "PC (Emulator)",
+      "desc": "Tối ưu cho LDPlayer, đa cửa sổ."
+    },
+    "client": {
+      "title": "Game Client",
+      "desc": "Chạy trực tiếp trên bản game PC."
+    }
+  }
+},
+
+  "shopRokTier": {
+    "mobile": {
+      "pageTitle": "Rise of Kingdoms – Gói Mobile",
+      "pageSubtitle": "Bot cài sẵn – tiếp tục chạy khi offline. Bật/tắt bot bằng kênh chat Discord",
+      "gridTitle": "Chọn gói Mobile",
+      "gridSub": "Phù hợp khi bạn muốn để máy chạy mà không cần ngồi trước PC.",
+      "plans": [
+        {
+          "title": "Mobile – Khởi động",
+          "price": "92.000đ",
+          "features": [
+            "Thời hạn sử dụng 3 ngày",
+            "Sử dụng full tính năng",
+            "1 license / 1 máy",
+            "Cập nhật thường xuyên",
+            "Hỗ trợ cộng đồng"
+          ]
+        },
+        {
+          "title": "Mobile – Tuần",
+          "price": "175.000đ",
+          "features": [
+            "Thời hạn sử dụng 7 ngày",
+            "Sử dụng full tính năng",
+            "1 license / 1 máy",
+            "Cập nhật thường xuyên",
+            "Hỗ trợ cộng đồng"
+          ]
+        },
+        {
+          "title": "Mobile – Tháng",
+          "price": "590.000đ",
+          "features": [
+            "Thời hạn sử dụng 30 ngày",
+            "Sử dụng full tính năng",
+            "1 license / 1 máy",
+            "Cập nhật thường xuyên",
+            "Hỗ trợ cộng đồng"
+          ]
+        },
+        {
+          "title": "Mobile – 5 Tháng",
+          "price": "2.700.000đ",
+          "features": [
+            "Thời hạn sử dụng 150 ngày",
+            "Sử dụng full tính năng",
+            "1 license / 1 máy",
+            "Cập nhật thường xuyên",
+            "Hỗ trợ cộng đồng"
+          ]
+        },
+        {
+          "title": "Mobile – 10 Tháng",
+          "price": "5.000.000đ",
+          "features": [
+            "Thời hạn sử dụng 300 ngày",
+            "Sử dụng full tính năng",
+            "1 license / 1 máy",
+            "Cập nhật thường xuyên",
+            "Hỗ trợ cộng đồng"
+          ]
+        },
+        {
+          "title": "Mobile – Team 5",
+          "price": "2.500.000đ",
+          "features": [
+            "Thời hạn sử dụng 30 ngày",
+            "Sử dụng full tính năng",
+            "5 license / 5 máy",
+            "Cập nhật thường xuyên",
+            "Hỗ trợ cộng đồng"
+          ]
+        }        
+      ]
+    },
+    "pc": {
+      "pageTitle": "Rise of Kingdoms – Gói PC (Emulator)",
+      "pageSubtitle": "Tối ưu cho LDPlayer – quản lý nhiều cửa sổ, vận hành linh hoạt.",
+      "gridTitle": "Chọn gói PC",
+      "gridSub": "Dành cho máy tính cấu hình tốt, chạy nhiều tài khoản song song.",
+      "plans": [
+        {
+          "title": "PC – 3 cửa sổ LDPLayer",
+          "price": "350.000đ",
+          "features":
+          [
+            "Thời hạn sử dụng 30 ngày",
+            "Không có tính năng đổi email",
+            "Cập nhật thường xuyên",
+            "Hỗ trợ cộng đồng"
+          ]
+        },
+        {
+          "title": "PC – 6 cửa sổ LDPLayer",
+          "price": "500.000đ",
+          "features":
+          [
+            "Thời hạn sử dụng 30 ngày",
+            "Không có tính năng đổi email",
+            "Cập nhật thường xuyên",
+            "Hỗ trợ cộng đồng"
+          ]
+        },
+        {
+          "title": "PC – 12 cửa sổ LDPLayer",
+          "price": "700.000đ",
+          "features":
+          [
+            "Thời hạn sử dụng 30 ngày",
+            "Sử dụng full tính năng",
+            "Cập nhật thường xuyên",
+            "Hỗ trợ cộng đồng"
+          ]
+        },
+        {
+          "title": "PC – 99 cửa sổ LDPLayer",
+          "price": "900.000đ",
+          "features":
+          [
+            "Thời hạn sử dụng 30 ngày",
+            "Sử dụng full tính năng",
+            "Cập nhật thường xuyên",
+            "Hỗ trợ cộng đồng"
+          ]
+        },
+        {
+          "title": "PC – Vĩnh viễn trọn đời",
+          "price": "2.000.000đ",
+          "features":
+          [
+            "Thời hạn sử dụng vô hạn",
+            "3 cửa sổ LDPlayer",
+            "Mua thêm 1 cửa sổ thì thêm 1.000.000đ",
+            "Sử dụng full tính năng",
+            "Cập nhật thường xuyên",
+            "Hỗ trợ cộng đồng"
+          ]
+        }
+      ]
+    },
+    "client": {
+      "pageTitle": "Rise of Kingdoms – Gói Game Client",
+      "pageSubtitle": "Chạy trực tiếp trên bản game PC – thiết lập đơn giản.",
+      "gridTitle": "Chọn gói Client",
+      "gridSub": "Phù hợp khi bạn dùng bản game cài trực tiếp trên PC.",
+      "plans": [
+        {
+          "title": "Client – Plus",
+          "price": "350.000đ",
+          "features": [
+            "Thời hạn sử dụng 30 ngày",
+            "1 license / 1 máy/ 1 tài khoản game",
+            "Tối ưu hiệu suất",
+            "Ưu tiên cập nhật",
+            "Hỗ trợ nâng cao"
+          ]
+        }
+      ]
+    }
+  }
+
+
+
+}

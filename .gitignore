@@ -1,0 +1,53 @@
+# Node modules
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun.lockb
+
+# Next.js build
+.next/
+out/
+dist/
+
+# Production
+build/
+
+# Env files
+.env
+.env.local
+.env.*.local
+.next-env.d.ts
+
+# Logs
+logs
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Typescript
+*.tsbuildinfo
+
+# Misc
+*.tgz
+*.zip
+
+# Coverage
+coverage/

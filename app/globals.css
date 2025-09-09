@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+--bg-grid: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.08) 1px, transparent 0) 0 0 / 24px 24px;
+}
+
+
+html, body, :root { height: 100%; }
+body { @apply bg-slate-950 text-white; background-image: var(--bg-grid); }
+
+
+/* Nice gradient text */
+.gradient-text { @apply bg-gradient-to-r from-brand-300 via-cyan-400 to-blue-400 bg-clip-text text-transparent; }
+
+
+/* Card styling */
+.card { @apply rounded-2xl border border-white/10 bg-white/5 shadow-xl shadow-cyan-500/5 backdrop-blur; }
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.animate-spin-slow { animation: spin-slow 8s linear infinite; }

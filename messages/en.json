@@ -1,0 +1,237 @@
+{
+  "nav": { "home": "Home", "downloads": "Downloads", "shop": "Shop", "refund": "Refund Policy", "contact": "Contact" },
+  "footer": { "rights": "All rights reserved." },
+  "cta": { "getStarted": "Get started", "buyNow": "Buy now" },
+  "home": {
+    "hero": { "title": "Fast · Safe · Effective", "subtitle": "Automation bots and guides for leading strategy games." },
+    "products": {
+      "title": "Products",
+      "subtitle": "Choose your game and start automating smarter.",
+      "rok": "Gather gems and handle routines with precision.",
+      "cod": "Automate core loops and resource collection.",
+      "eoc": "Preparing advanced routines for EoC.",
+      "warpath": "Warpath automation in development."
+    },
+    "matrix": {
+      "title": "Compare plans",
+      "subtitle": "Pick the scale that fits your workstation.",
+      "rows": [
+        { "feature": "Windows limit", "planA": "Up to 12", "planB": "Unlimited*" },
+        { "feature": "Updates", "planA": "Included", "planB": "Included" },
+        { "feature": "Safety toolkit", "planA": "Best practices", "planB": "Best practices" },
+        { "feature": "Support", "planA": "Community", "planB": "Community" }
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "qa": [
+        { "q": "Is this safe to use?", "a": "We provide guidance to reduce risk, but automation may violate game ToS." },
+        { "q": "Which emulator is recommended?", "a": "We suggest LDPlayer at 1280×720, dpi 240 for stability." },
+        { "q": "Do you offer refunds?", "a": "Digital products are generally non-refundable as described in our policy." }
+      ]
+    }
+  },
+  "downloads": {
+    "title": "Downloads & Guides",
+    "rok": {
+      "en": "RoK – Download (English)",
+      "setup": "RoK – Setup guide",
+      "windowsExclusion": "RoK – Add to Windows Security exclusions",
+      "update": "RoK – How to update"
+    },
+    "cod": { "en": "CoD – Download (English)", "setup": "CoD – Setup guide" }
+  },
+  "shop": {
+    "title": "Shop",
+    "subtitle": "Transparent pricing – instant delivery of license keys.",
+    "features": {
+      "multi12": "Run up to 12 emulator windows",
+      "unlimited": "Unlimited emulator windows",
+      "safe": "Best-practice safety recommendations",
+      "updates": "Frequent updates",
+      "support": "Discord community support"
+    }
+  },
+  "policy": {
+    "refund": {
+      "title": "Refund & Returns Policy",
+      "body1": "Because our products are digital licenses, orders are generally not eligible for returns or refunds after delivery.",
+      "point1": "If you have technical issues, contact support first for troubleshooting.",
+      "point2": "Abuse, bans, or ToS violations are not eligible for refunds.",
+      "point3": "Chargebacks without contacting support may lead to license revocation.",
+      "body2": "We may consider limited exceptions at our discretion when a license has not been used."
+    }
+  },
+  "contact": {
+    "title": "Contact & Community",
+    "subtitle": "Join our channels for announcements and support.",
+    "channels": [
+      { "label": "Discord", "href": "https://discord.com/invite/hlbots", "desc": "Get help and updates" },
+      { "label": "Zalo", "href": "https://zalo.me/", "desc": "Vietnam community" },
+      { "label": "YouTube", "href": "https://youtube.com/", "desc": "Guides and demos" },
+      { "label": "Facebook", "href": "https://facebook.com/", "desc": "News and promos" }
+    ]
+  },
+  "welcome": {
+    "title": "Select the service you want to use",
+    "options": [
+      {
+        "key": "mobile",
+        "title": "Gather Gem on Mobile",
+        "subtitle": "The Mobile Plan includes everything you need to run the bot on Android, iOS, PC or Mac. The bot is pre-installed and will continue to run even after you go offline.",
+        "image": "/welcome/mobile.jpg",
+        "href": "/{locale}/shop",
+        "buttonText": "Learn more →"
+      },
+      {
+        "key": "pc",
+        "title": "Gather Gem on PC",
+        "subtitle": "Use LDPlayer emulator for a smooth experience.",
+        "image": "/welcome/ldplayer.jpg",
+        "href": "/{locale}/downloads",
+        "buttonText": "Learn more →"
+      },
+      {
+        "key": "gameclient",
+        "title": "Gather Gem on PC (Game Client) – Free",
+        "subtitle": "Run the bot directly with the PC Game client version.",
+        "image": "/welcome/gameclient.jpg",
+        "href": "/{locale}/downloads",
+        "buttonText": "Learn more →"
+      }
+    ]
+  },
+  "rokHub": {
+  "title": "Rise of Kingdoms – Choose a platform",
+  "subtitle": "Pick the right package: Mobile, PC (emulator), or Client.",
+  "groups": {
+    "mobile": {
+      "title": "Mobile",
+      "desc": "Preinstalled bot – runs even when you're offline."
+    },
+    "pc": {
+      "title": "PC (Emulator)",
+      "desc": "Optimized for LDPlayer, multi-window."
+    },
+    "client": {
+      "title": "Game Client",
+      "desc": "Runs directly on the PC game client."
+    }
+  }
+},
+
+  "shopRokTier": {
+    "mobile": {
+      "pageTitle": "Rise of Kingdoms – Mobile Plan",
+      "pageSubtitle": "Pre-installed bot — keeps running while offline. Recommended LDPlayer 1280×720, 240 dpi.",
+      "gridTitle": "Choose a Mobile plan",
+      "gridSub": "Best when you want the machine to run unattended.",
+      "plans": [
+        {
+          "title": "Mobile – Starter",
+          "price": "$6.9",
+          "features": [
+            "Automated Gem / basic routines",
+            "1 license / 1 device",
+            "Frequent updates",
+            "Community support"
+          ]
+        },
+        {
+          "title": "Mobile – Pro",
+          "price": "$9.9",
+          "features": [
+            "Everything in Starter",
+            "Safety & scheduling optimizations",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    "pc": {
+      "pageTitle": "Rise of Kingdoms – PC (Emulator) Plan",
+      "pageSubtitle": "Optimized for LDPlayer — multi-window, flexible operations.",
+      "gridTitle": "Choose a PC plan",
+      "gridSub": "For high-spec PCs running many accounts in parallel.",
+      "plans": [
+        {
+          "title": "PC – 3 Windows",
+          "price": "$16",
+          "features": [
+            "30 days validity",
+            "No email change feature",
+            "Best-practice safety",
+            "Frequent updates",
+            "Community support"
+          ]
+        },
+        {
+          "title": "PC – 6 Windows",
+          "price": "$23",
+          "features": [
+            "30 days validity",
+            "No email change feature",
+            "Best-practice safety",
+            "Frequent updates",
+            "Community support"
+          ]
+        },
+        {
+          "title": "PC – 12 Windows",
+          "price": "$31",
+          "features": [
+            "30 days validity",
+            "Full feature",
+            "Best-practice safety",
+            "Frequent updates",
+            "Community support"
+          ]
+        },
+        {
+          "title": "PC – 99 Windows",
+          "price": "$40",
+          "features": [
+            "30 days validity",
+            "Full feature",
+            "Best-practice safety",
+            "Frequent updates",
+            "Community support"
+          ]
+        },
+        {
+          "title": "PC – Lifetime",
+          "price": "$89",
+          "features": [
+            "Unlimited usage time",
+            "3 windows",
+            "Buy 1 more window for $40 more",
+            "Full feature",
+            "Best-practice safety",
+            "Frequent updates",
+            "Community support"
+          ]
+        }
+      ]
+    },
+    "client": {
+      "pageTitle": "Rise of Kingdoms – Game Client Plan",
+      "pageSubtitle": "Run directly on the PC game client — simple setup.",
+      "gridTitle": "Choose a Client plan",
+      "gridSub": "Great if you prefer the native PC game client.",
+      "plans": [
+        {
+          "title": "Client – Plus",
+          "price": "$16",
+          "features": [
+            "Performance optimizations",
+            "Priority updates",
+            "Enhanced support"
+          ]
+        }
+      ]
+    }
+  }
+
+
+
+}
