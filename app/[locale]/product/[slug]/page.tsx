@@ -9,7 +9,7 @@ type Detail = {
   videoUrl: string;
   features: string[];
   usage: string[];
-  price: { value: string; period?: string; note?: string };
+  price?: { value: string; period?: string; note?: string };
   ctaText: string;
   shopQuery?: string;
   downloadUrl?: string; // <-- thêm để khớp với JSX bên dưới
