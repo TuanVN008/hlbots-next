@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { isLocale, type Locale } from "@/lib/locales";
 import { getDictionary } from "@/lib/i18n";
+import ClientCTA from '@/components/ui/ClientCTA';
 
 // ==== Types ====
 type Detail = {
@@ -477,27 +478,19 @@ export default async function ProductPage({
           {/* viền gradient động */}
           <div className="absolute inset-0 rounded-2xl bg-[conic-gradient(var(--tw-gradient-stops))] from-cyan-400 via-blue-500 to-purple-600 animate-[spin_8s_linear_infinite] opacity-60 blur-xl" />
           <div className="relative rounded-2xl bg-slate-900 ring-1 ring-white/10 p-6 md:p-8">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-              <Link
-                href={shopHref}
-                className="inline-flex items-center justify-center rounded-xl bg-cyan-500 px-6 py-3 font-semibold text-slate-900 shadow-lg shadow-cyan-500/20 transition hover:bg-cyan-400"
-                aria-label={data.ctaText}
-              >
-                {data.ctaText}
-              </Link>
-
-              {data.downloadUrl && (
-                <a
-                  href={data.downloadUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center rounded-xl bg-purple-500 px-6 py-3 font-semibold text-white shadow-lg shadow-purple-500/20 transition hover:bg-purple-400"
-                  download
-                >
-                  ⬇️ {locale === 'en' ? 'Download Bot' : locale === 'pt-BR' ? 'Baixar Bot' : 'Tải Bot'}
-                </a>
-              )}
-            </div>
+            <section className="mx-auto max-w-3xl px-6 pb-16">
+            <div className="relative rounded-2xl p-[2px]">
+              <div className="absolute inset-0 rounded-2xl bg-[conic-gradient(var(--tw-gradient-stops))] from-cyan-400 via-blue-500 to-purple-600 animate-[spin_8s_linear_infinite] opacity-60 blur-xl" />
+              <div className="relative rounded-2xl bg-slate-900 ring-1 ring-white/10 p-6 md:p-8">
+                <ClientCTA
+                  locale={locale}
+                  ctaText={data.ctaText}
+                  shopHref={shopHref}
+                  downloadUrl={data.downloadUrl}
+                />
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </section>
