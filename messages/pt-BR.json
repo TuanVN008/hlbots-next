@@ -113,31 +113,78 @@
 },
 
   "shopRokTier": {
-    "mobile": {
-      "pageTitle": "Rise of Kingdoms – Plano Mobile",
-      "pageSubtitle": "Bot pré-instalado — continua rodando offline. Recomendado LDPlayer 1280×720, 240 dpi.",
-      "gridTitle": "Escolha um plano Mobile",
-      "gridSub": "Ideal quando você quer deixar a máquina rodando sozinha.",
-      "plans": [
-        {
-          "title": "Mobile – Starter",
-          "price": "R$ 39",
-          "features": [
-            "Coleta de Gem / rotinas básicas",
-            "1 licença / 1 dispositivo",
-            "Atualizações frequentes",
-            "Suporte da comunidade"
-          ]
-        },
-        {
-          "title": "Mobile – Pro",
-          "price": "R$ 59",
-          "features": [
-            "Tudo do Starter",
-            "Otimizações de segurança e agendamento",
-            "Suporte prioritário"
-          ]
-        }
+  "mobile": {
+    "pageTitle": "Rise of Kingdoms – Pacote Mobile",
+    "pageSubtitle": "Bot pré-instalado – continua rodando mesmo offline. Ativar/desativar pelo canal do Discord",
+    "gridTitle": "Escolha o Pacote Mobile",
+    "gridSub": "Perfeito quando você quer que o bot continue rodando sem precisar ficar na frente do PC.",
+    "plans": [
+      {
+        "title": "Mobile – Inicial",
+        "price": "$5",
+        "features": [
+          "Validade de 3 dias",
+          "Acesso a todos os recursos",
+          "1 licença / 1 dispositivo",
+          "Atualizações regulares",
+          "Suporte da comunidade"
+        ]
+      },
+      {
+        "title": "Mobile – Semanal",
+        "price": "$8",
+        "features": [
+          "Validade de 7 dias",
+          "Acesso a todos os recursos",
+          "1 licença / 1 dispositivo",
+          "Atualizações regulares",
+          "Suporte da comunidade"
+        ]
+      },
+      {
+        "title": "Mobile – Mensal",
+        "price": "$25",
+        "features": [
+          "Validade de 30 dias",
+          "Acesso a todos os recursos",
+          "1 licença / 1 dispositivo",
+          "Atualizações regulares",
+          "Suporte da comunidade"
+        ]
+      },
+      {
+        "title": "Mobile – 5 Meses",
+        "price": "$115",
+        "features": [
+          "Validade de 150 dias",
+          "Acesso a todos os recursos",
+          "1 licença / 1 dispositivo",
+          "Atualizações regulares",
+          "Suporte da comunidade"
+        ]
+      },
+      {
+        "title": "Mobile – 10 Meses",
+        "price": "$200",
+        "features": [
+          "Validade de 300 dias",
+          "Acesso a todos os recursos",
+          "1 licença / 1 dispositivo",
+          "Atualizações regulares",
+          "Suporte da comunidade"
+        ]
+      },
+      {
+        "title": "Mobile – Equipe 5",
+        "price": "$100",
+        "features": [
+          "Validade de 30 dias",
+          "Acesso a todos os recursos",
+          "5 licenças / 5 dispositivos",
+          "Atualizações regulares",
+          "Suporte da comunidade"
+        ]
+      }
       ]
     },
     "pc": {

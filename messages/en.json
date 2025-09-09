@@ -121,31 +121,78 @@
 },
 
   "shopRokTier": {
-    "mobile": {
-      "pageTitle": "Rise of Kingdoms – Mobile Plan",
-      "pageSubtitle": "Pre-installed bot — keeps running while offline. Recommended LDPlayer 1280×720, 240 dpi.",
-      "gridTitle": "Choose a Mobile plan",
-      "gridSub": "Best when you want the machine to run unattended.",
-      "plans": [
-        {
-          "title": "Mobile – Starter",
-          "price": "$6.9",
-          "features": [
-            "Automated Gem / basic routines",
-            "1 license / 1 device",
-            "Frequent updates",
-            "Community support"
-          ]
-        },
-        {
-          "title": "Mobile – Pro",
-          "price": "$9.9",
-          "features": [
-            "Everything in Starter",
-            "Safety & scheduling optimizations",
-            "Priority support"
-          ]
-        }
+  "mobile": {
+    "pageTitle": "Rise of Kingdoms – Mobile Package",
+    "pageSubtitle": "Pre-installed bot – continues running even when offline. Enable/disable via Discord channel",
+    "gridTitle": "Choose Mobile Package",
+    "gridSub": "Perfect when you want the bot to keep running without sitting in front of the PC.",
+    "plans": [
+      {
+        "title": "Mobile – Starter",
+        "price": "$5",
+        "features": [
+          "Validity 3 days",
+          "Full feature access",
+          "1 license / 1 device",
+          "Regular updates",
+          "Community support"
+        ]
+      },
+      {
+        "title": "Mobile – Weekly",
+        "price": "$8",
+        "features": [
+          "Validity 7 days",
+          "Full feature access",
+          "1 license / 1 device",
+          "Regular updates",
+          "Community support"
+        ]
+      },
+      {
+        "title": "Mobile – Monthly",
+        "price": "$25",
+        "features": [
+          "Validity 30 days",
+          "Full feature access",
+          "1 license / 1 device",
+          "Regular updates",
+          "Community support"
+        ]
+      },
+      {
+        "title": "Mobile – 5 Months",
+        "price": "115$",
+        "features": [
+          "Validity 150 days",
+          "Full feature access",
+          "1 license / 1 device",
+          "Regular updates",
+          "Community support"
+        ]
+      },
+      {
+        "title": "Mobile – 10 Months",
+        "price": "$200",
+        "features": [
+          "Validity 300 days",
+          "Full feature access",
+          "1 license / 1 device",
+          "Regular updates",
+          "Community support"
+        ]
+      },
+      {
+        "title": "Mobile – Team 5",
+        "price": "$100",
+        "features": [
+          "Validity 30 days",
+          "Full feature access",
+          "5 licenses / 5 devices",
+          "Regular updates",
+          "Community support"
+        ]
+      }
       ]
     },
     "pc": {
