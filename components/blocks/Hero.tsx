@@ -37,7 +37,7 @@ animate={{ opacity: 1, y: 0 }}
 transition={{ delay: 0.3, duration: 0.6 }}
 className="mt-8"
 >
-<a href={href}><Button className="text-base px-6 py-3">{cta}</Button></a>
+
 </motion.div>
 </div>
 </Container>
