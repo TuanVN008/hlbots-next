@@ -494,13 +494,14 @@ export default async function ProductPage({
                   className="inline-flex items-center justify-center rounded-xl bg-purple-500 px-6 py-3 font-semibold text-white shadow-lg shadow-purple-500/20 transition hover:bg-purple-400"
                   download
                 >
-                  ⬇️ {locale === "en" ? "Download Bot" : locale === "pt-BR" ? "Baixar Bot" : "Tải Bot"}
+                  ⬇️ {locale === 'en' ? 'Download Bot' : locale === 'pt-BR' ? 'Baixar Bot' : 'Tải Bot'}
                 </a>
               )}
             </div>
           </div>
         </div>
       </section>
+
     </main>
   );
 }
