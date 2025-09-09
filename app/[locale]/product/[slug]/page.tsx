@@ -12,6 +12,7 @@ type Detail = {
   price: { value: string; period?: string; note?: string };
   ctaText: string;
   shopQuery?: string;
+  downloadUrl?: string; // <-- thêm để khớp với JSX bên dưới
 };
 
 // ==== Static params để build 3 slug ====
@@ -191,8 +192,7 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
       shopQuery: "/rok/mobile",
     };
   }
-
-
+    
   // --- PC ---
   if (slug === "rok-pc") {
     if (locale === "vi")
@@ -229,68 +229,9 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
         ],
         ctaText: "Đăng ký ngay",
         shopQuery: "/rok/pc",
-        // 👉 thêm trường mới
         downloadUrl: "https://hlbots.net/HLBots_E_Auto_Rise_Of_Kingdoms.exe"
       };
-      if (locale === "en")
-        return {
-          title: "HLBots – PC Plan (RoK)",
-          subtitle: "Use LDPlayer emulator – optimized for multi-windows.",
-          videoUrl: "https://www.youtube.com/embed/OxlQ7pDHR-c",
-          features: [
-            "Gather gems and resources",
-            "Barbarian hunting / farming",
-            "Rally join / create",
-            "Auto switch emails & characters",
-            "Fog / cave / tribal village scouting",
-            "Pause / resume 1–120 mins",
-            "Train & upgrade troops",
-            "Mystery shop purchase, daily chests",
-            "Alliance help & tech donation",
-            "City upgrade",
-            "Auto relog if disconnected",
-          ],
-          usage: [
-            "Install LDPlayer from ldplayer.net",
-            "Open its app store and install the game",
-            "Install the bot on PC",
-            "Enter the activation key to use",
-          ],
-          ctaText: "Subscribe now",
-          shopQuery: "/rok/pc",
-          downloadUrl: "https://hlbots.net/HLBots_E_Auto_Rise_Of_Kingdoms.exe",
-        };
-      // ✅ Thêm nhánh pt-BR
-      if (locale === "pt-BR")
-        return {
-          title: "HLBots – Plano PC (RoK)",
-          subtitle: "Use o emulador LDPlayer – otimizado para várias janelas.",
-          videoUrl: "https://www.youtube.com/embed/OxlQ7pDHR-c",
-          features: [
-            "Coletar gemas e recursos",
-            "Caçar bárbaros / farm",
-            "Entrar / criar rally",
-            "Trocar e-mails e personagens automaticamente",
-            "Explorar neblina, cavernas e aldeias tribais",
-            "Pausar / retomar entre 1–120 minutos",
-            "Treinar e aprimorar tropas",
-            "Comprar no Mercado Misterioso, baús diários",
-            "Ajudar a aliança e doar tecnologia",
-            "Evoluir a cidade",
-            "Relogar automaticamente se desconectar",
-          ],
-          usage: [
-            "Baixe e instale o LDPlayer em ldplayer.net",
-            "Abra a loja do LDPlayer e instale o jogo",
-            "Instale o bot no PC",
-            "Insira a chave de ativação para usar",
-          ],
-          ctaText: "Assinar agora",
-          shopQuery: "/rok/pc",
-          downloadUrl: "https://hlbots.net/HLBots_E_Auto_Rise_Of_Kingdoms.exe",
-        };
-        
-      // Fallback (ví dụ về EN) nếu vì lý do nào đó locale khác
+    if (locale === "en")
       return {
         title: "HLBots – PC Plan (RoK)",
         subtitle: "Use LDPlayer emulator – optimized for multi-windows.",
@@ -318,8 +259,65 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
         shopQuery: "/rok/pc",
         downloadUrl: "https://hlbots.net/HLBots_E_Auto_Rise_Of_Kingdoms.exe",
       };
-    }
- 
+    if (locale === "pt-BR")
+      return {
+        title: "HLBots – Plano PC (RoK)",
+        subtitle: "Use o emulador LDPlayer – otimizado para várias janelas.",
+        videoUrl: "https://www.youtube.com/embed/OxlQ7pDHR-c",
+        features: [
+          "Coletar gemas e recursos",
+          "Caçar bárbaros / farm",
+          "Entrar / criar rally",
+          "Trocar e-mails e personagens automaticamente",
+          "Explorar neblina, cavernas e aldeias tribais",
+          "Pausar / retomar entre 1–120 minutos",
+          "Treinar e aprimorar tropas",
+          "Comprar no Mercado Misterioso, baús diários",
+          "Ajudar a aliança e doar tecnologia",
+          "Evoluir a cidade",
+          "Relogar automaticamente se desconectar",
+        ],
+        usage: [
+          "Baixe e instale o LDPlayer em ldplayer.net",
+          "Abra a loja do LDPlayer e instale o jogo",
+          "Instale o bot no PC",
+          "Insira a chave de ativação para usar",
+        ],
+        ctaText: "Assinar agora",
+        shopQuery: "/rok/pc",
+        downloadUrl: "https://hlbots.net/HLBots_E_Auto_Rise_Of_Kingdoms.exe",
+      };
+
+    // Fallback (EN) nếu vì lý do nào đó locale khác
+    return {
+      title: "HLBots – PC Plan (RoK)",
+      subtitle: "Use LDPlayer emulator – optimized for multi-windows.",
+      videoUrl: "https://www.youtube.com/embed/OxlQ7pDHR-c",
+      features: [
+        "Gather gems and resources",
+        "Barbarian hunting / farming",
+        "Rally join / create",
+        "Auto switch emails & characters",
+        "Fog / cave / tribal village scouting",
+        "Pause / resume 1–120 mins",
+        "Train & upgrade troops",
+        "Mystery shop purchase, daily chests",
+        "Alliance help & tech donation",
+        "City upgrade",
+        "Auto relog if disconnected",
+      ],
+      usage: [
+        "Install LDPlayer from ldplayer.net",
+        "Open its app store and install the game",
+        "Install the bot on PC",
+        "Enter the activation key to use",
+      ],
+      ctaText: "Subscribe now",
+      shopQuery: "/rok/pc",
+      downloadUrl: "https://hlbots.net/HLBots_E_Auto_Rise_Of_Kingdoms.exe",
+    };
+  }
+
   // --- GAME CLIENT ---
   if (slug === "rok-client") {
     // VI
@@ -343,7 +341,7 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
         price: { value: "Miễn phí", note: "Bản dùng thử" },
         ctaText: "Đăng ký ngay",
         shopQuery: "/rok/client",
-        downloadUrl: "https://hlbots.net/HLBots_Client.zip" // ← thay nếu bạn có file khác
+        downloadUrl: "https://hlbots.net/HLBots_Client.zip"
       };
     }
 
@@ -395,6 +393,18 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
       downloadUrl: "https://hlbots.net/HLBots_Client.zip"
     };
   }
+
+  // ✅ Fallback cuối hàm (tránh lỗi "lacks ending return statement")
+  return {
+    title: "HLBots Product",
+    subtitle: "",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    features: [],
+    usage: [],
+    price: { value: "$0" },
+    ctaText: "Shop",
+    shopQuery: "/shop",
+  };
 }
 
 // ==== Component page chi tiết ====
@@ -476,25 +486,21 @@ export default async function ProductPage({
                 {data.ctaText}
               </Link>
 
-                {data.downloadUrl && (
-                    <a
-                      href={data.downloadUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center rounded-xl bg-purple-500 px-6 py-3 font-semibold text-white shadow-lg shadow-purple-500/20 transition hover:bg-purple-400"
-                      download
-                    >
-                      ⬇️ {locale === "en" ? "Download Bot" : locale === "pt-BR" ? "Baixar Bot" : "Tải Bot"}
-                    </a>
-                  )}
-
-
+              {data.downloadUrl && (
+                <a
+                  href={data.downloadUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-xl bg-purple-500 px-6 py-3 font-semibold text-white shadow-lg shadow-purple-500/20 transition hover:bg-purple-400"
+                  download
+                >
+                  ⬇️ {locale === "en" ? "Download Bot" : locale === "pt-BR" ? "Baixar Bot" : "Tải Bot"}
+                </a>
+              )}
             </div>
-
           </div>
         </div>
       </section>
-
     </main>
   );
 }
