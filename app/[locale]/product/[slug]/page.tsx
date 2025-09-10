@@ -230,7 +230,7 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
         ],
         ctaText: "Đăng ký ngay",
         shopQuery: "/rok/pc",
-        downloadUrl: "https://hlbots.net/HLBots_E_Auto_Rise_Of_Kingdoms.exe"
+        downloadUrl: "https://pub-339b2e87aea64257800559d0ec3ce9f5.r2.dev/HLBots_E_Auto_Rise_Of_Kingdoms.exe"
       };
     if (locale === "en")
       return {
@@ -258,7 +258,7 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
         ],
         ctaText: "Subscribe now",
         shopQuery: "/rok/pc",
-        downloadUrl: "https://hlbots.net/HLBots_E_Auto_Rise_Of_Kingdoms.exe",
+        downloadUrl: "https://pub-339b2e87aea64257800559d0ec3ce9f5.r2.dev/HLBots_E_Auto_Rise_Of_Kingdoms.exe",
       };
     if (locale === "pt-BR")
       return {
@@ -286,7 +286,7 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
         ],
         ctaText: "Assinar agora",
         shopQuery: "/rok/pc",
-        downloadUrl: "https://hlbots.net/HLBots_E_Auto_Rise_Of_Kingdoms.exe",
+        downloadUrl: "https://pub-339b2e87aea64257800559d0ec3ce9f5.r2.dev/HLBots_E_Auto_Rise_Of_Kingdoms.exe",
       };
 
     // Fallback (EN) nếu vì lý do nào đó locale khác
@@ -315,7 +315,7 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
       ],
       ctaText: "Subscribe now",
       shopQuery: "/rok/pc",
-      downloadUrl: "https://hlbots.net/HLBots_E_Auto_Rise_Of_Kingdoms.exe",
+      downloadUrl: "https://pub-339b2e87aea64257800559d0ec3ce9f5.r2.dev/HLBots_E_Auto_Rise_Of_Kingdoms.exe",
     };
   }
 
@@ -342,7 +342,7 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
         price: { value: "Miễn phí", note: "Bản dùng thử" },
         ctaText: "Đăng ký ngay",
         shopQuery: "/rok/client",
-        downloadUrl: "https://hlbots.net/HLBots_Client.zip"
+        downloadUrl: "https://pub-339b2e87aea64257800559d0ec3ce9f5.r2.dev/HLBots_Client.zip"
       };
     }
 
@@ -367,7 +367,7 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
         price: { value: "Grátis", note: "Versão de teste" },
         ctaText: "Assinar agora",
         shopQuery: "/rok/client",
-        downloadUrl: "https://hlbots.net/HLBots_Client.zip"
+        downloadUrl: "https://pub-339b2e87aea64257800559d0ec3ce9f5.r2.dev/HLBots_Client.zip"
       };
     }
 
@@ -391,7 +391,7 @@ function getProductDetail(dict: any, locale: Locale, slug: string): Detail {
       price: { value: "Free", note: "Trial version" },
       ctaText: "Try for free",
       shopQuery: "/rok/client",
-      downloadUrl: "https://hlbots.net/HLBots_Client.zip"
+      downloadUrl: "https://pub-339b2e87aea64257800559d0ec3ce9f5.r2.dev/HLBots_Client.zip"
     };
   }
 
