@@ -60,6 +60,14 @@ export default function Navbar({
                 {t.shop}
               </Link>
               <a
+                href="https://hlshops.net"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white"
+              >
+                {t.buySellAccount}
+              </a>
+              <a
                 href={discordUrl}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -140,6 +148,15 @@ export default function Navbar({
             >
               {t.shop}
             </Link>
+            <a
+              href="https://hlshops.net"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(false)}
+              className="rounded-md px-1 py-2 hover:bg-white/5"
+            >
+              {t.buySellAccount}
+            </a>
             <a
               href={discordUrl}
               target="_blank"

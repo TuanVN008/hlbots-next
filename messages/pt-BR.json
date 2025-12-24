@@ -1,5 +1,5 @@
 {
-"nav": {"home": "Início", "downloads": "Downloads", "shop": "Loja", "refund": "Política de Reembolso", "contact": "Contato"},
+"nav": {"home": "Início", "downloads": "Downloads", "shop": "Loja", "buySellAccount": "Comprar/Vender Conta", "refund": "Política de Reembolso", "contact": "Contato"},
 "footer": {"rights": "Todos os direitos reservados."},
 "cta": {"getStarted": "Começar", "buyNow": "Comprar"},
 "home": {

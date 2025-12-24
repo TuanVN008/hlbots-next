@@ -1,5 +1,5 @@
 {
-  "nav": { "home": "Home", "downloads": "Downloads", "shop": "Shop", "refund": "Refund Policy", "contact": "Contact" },
+  "nav": { "home": "Home", "downloads": "Downloads", "shop": "Shop", "buySellAccount": "Buy/Sell Account", "refund": "Refund Policy", "contact": "Contact" },
   "footer": { "rights": "All rights reserved." },
   "cta": { "getStarted": "Get started", "buyNow": "Buy now" },
   "home": {
